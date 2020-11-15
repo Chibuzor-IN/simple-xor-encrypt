@@ -17,7 +17,7 @@ func main() {
 	encryptedString := encryptString(key, inputText)
 	decryptedString := decryptString(key, encryptedString)
 
-	println("INPUT STRING IS : ", inputText, "\n")
+	println("INPUT STRING IS :", inputText, "\n")
 	println(encryptedString)
 	println(decryptedString)
 }
